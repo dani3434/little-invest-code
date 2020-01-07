@@ -38,6 +38,7 @@ img{
 @media (max-width:770px){
   .img-intro{
     margin: 0 auto;
+    width: auto;
   }
 }
 .navbar-light .navbar-toggler{
@@ -113,15 +114,17 @@ img{
   text-align: center;
 }
 .vantagens-itens h2{
-  
   font-size: 1.25rem;  
   color: #000000;
 }
 @media (max-width:770px){
   .img-vantagens{
     margin: 0 auto;
-    width: 300px;
+    width: auto;
   }
+  .vantagens-itens{
+    margin: 0;
+  } 
 }
 /* Citação */
 .citacao{
@@ -192,7 +195,7 @@ button:focus{
 @media (max-width:770px){
   .conta-icone{
     margin-left: auto;
-    width: 350px;
+    width: auto;
   }
 }
 
